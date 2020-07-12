@@ -1,0 +1,19 @@
+{
+    "name": "jglazer/trail-journal-site",
+    "description": "Description of project TrailJournalSite.",
+    "authors": [
+        {
+            "name": "Joshua Glazer",
+            "email": "atrail2014@gmail.com"
+        }
+    ],
+    "require": {
+        "propel/propel": "~2.0@dev"
+    },
+    "autoload": {
+        "psr-4" : {
+            "DataAccess\\" : "DataAccess/",
+            "DataAccess\\DataAccessObjects\\" : "DataAccess/DataAccessObjects/"
+        }
+    }
+}
