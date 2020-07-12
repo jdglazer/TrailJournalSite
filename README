@@ -1,0 +1,4 @@
+To get started with this repo:
+
+* change directory to build/bin and run script to get composer executable
+* fill in mysql passwords to build/config/dataaccess-build.properties
