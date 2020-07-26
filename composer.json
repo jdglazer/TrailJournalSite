@@ -12,8 +12,10 @@
     },
     "autoload": {
         "psr-4" : {
-            "DataAccess\\" : "DataAccess/",
-            "DataAccess\\DataAccessObjects\\" : "DataAccess/DataAccessObjects/"
+            "DataAccess\\" : "target/lib/DataAccess/",
+            "DataAccess\\DataAccessObjects\\" : "target/lib/DataAccess/DataAccessObjects/",
+            "DataAccess\\DataTransferObjects\\" : "target/lib/DataAccess/DataTransferObjects/",
+            "Action\\" : "target/lib/Action"
         }
     }
 }

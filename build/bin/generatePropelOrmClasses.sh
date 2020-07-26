@@ -32,3 +32,6 @@ ${PROPEL_EXEC} build --schema-dir ${BUILD_TARGET_DIR} --config-dir ${BUILD_TARGE
 
 # generate config.php for initializing connection during runtime
 ${PROPEL_EXEC} config:convert --config-dir ${BUILD_TARGET_DIR} --output-dir ${BUILD_TARGET_DIR}
+
+# copy into lib dir extended data access object classes
+${TOP_LEVEL}/build/bin/copySrcToLib.sh
